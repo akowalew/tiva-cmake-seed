@@ -1,3 +1,9 @@
+/**
+ * app.c
+ * Contains implementation of app module
+ * Author: akowalew
+ */
+
 #include "app/app.h"
 
 #include <stdbool.h>

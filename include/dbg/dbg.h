@@ -1,3 +1,9 @@
+/**
+ * dbg.h
+ * Contains declarations for dbg module
+ * Author: akowalew
+ */
+
 #pragma once
 
 #include <stdint.h>

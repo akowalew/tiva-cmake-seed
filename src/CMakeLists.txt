@@ -1,3 +1,7 @@
+# CMakeLists.txt
+# Specifies main binary and other microcontroller-specific targets
+# Author: akowalew
+
 add_subdirectory(app)
 add_subdirectory(dbg)
 

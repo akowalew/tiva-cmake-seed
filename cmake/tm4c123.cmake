@@ -1,3 +1,7 @@
+# tm4c123.cmake
+# Toolchain file for TM4C123 series microcontrollers
+# Author: akowalew
+
 set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_PROCESSOR arm)
 

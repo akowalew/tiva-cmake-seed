@@ -1,7 +1,13 @@
+/*
+ * TM4C123GH6PM.ld
+ * Linker script for TM4C123GH6PM microcontroller
+ * Author: akowalew
+*/
+
 MEMORY
 {
     FLASH (rx) : ORIGIN = 0x00000000, LENGTH = 0x00040000 /* 256KB */
-    SRAM (rwx) : ORIGIN = 0x20000000, LENGTH = 0X00008000 /* 32KB */
+    SRAM (rwx) : ORIGIN = 0x20000000, LENGTH = 0x00008000 /* 32KB */
 }
 
 SECTIONS

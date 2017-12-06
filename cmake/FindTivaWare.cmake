@@ -1,7 +1,9 @@
+# FindTivaWare.cmake
 # - Try to find TivaWare
 # Once done this will define
 # 	TIVAWARE_FOUND - System has TivaWare
 # 	TIVAWARE_INCLUDE_DIRS - The TivaWare include directories
+# Author: akowalew
 
 find_path(_TIVAWARE_INCLUDE_DIR inc PATH_SUFFIXES tivaware)
 
@@ -42,4 +44,3 @@ else()
 	)
 
 endif()
-
