@@ -17,11 +17,11 @@ void defaultISR(void);
 extern int main(void);
 
 // Reserve space for the system stack.
-static unsigned long stack[128];
+static const unsigned long stack[128];
 
 // initial value of stack pointer 
 __attribute__((section(".stackBegin")))
-static void * const stackBegin = (void *)((unsigned long)stack + sizeof(stack));
+void * const stackBegin = (void *)((unsigned long)stack + sizeof(stack));
 
 // The vector table.
 __attribute__((section(".isrVector")))
