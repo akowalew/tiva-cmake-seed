@@ -9,7 +9,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-void dbgCheckFailed(char *pcFilename, uint32_t ui32Line);
+void dbgCheckFailed(char *fileName, int lineNumber);
 
 #ifndef NDEBUG
 #define dbgCheck(expr) \

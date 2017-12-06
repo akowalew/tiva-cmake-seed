@@ -7,7 +7,7 @@
 #include "dbg/dbg.h"
 
 void 
-dbgCheckFailed(char *pcFilename, uint32_t ui32Line)
+dbgCheckFailed(char *fileName, int lineNumber)
 {
 	while(true)
 	{
